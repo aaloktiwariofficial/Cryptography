@@ -1,5 +1,5 @@
 class decrypt {
-    protected String enc(String msg, int key) { //key=0to26,message with no space as of now.
+    protected String enc(String msg, int key) { //key=0to26,message with no space as of now. Caesar Cipher has key=3
         String decryptedMsg = "";
         String sample = "abcdefghijklmnopqrstuvwxyz";
         int mod = 0;
